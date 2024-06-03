@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="styleregister.css">
+</head>
+<body>
+    <div class="container-box">
+            <form>
+                <h1>Login Form</h1>
+                <div>
+                    <label for="username"> Username:</label>
+                    <input type="text" name="username" id="username" required placeholder="Enter your username">
+                </div>
+                <div>
+                    <label for="password"> Password:</label>
+                    <input type="password" name="password" id="password" required placeholder="Enter your password">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="">Phone No:</label>
+                    <input type="number" name="phonenumber" id="phonenumber" required placeholder="entery your phone No...">
+                </div>
+
+        <h2>Date of Birth</h2>
+                <div>
+                    <label for="date">Date of Birth</label>
+                    <input type="date" name="date" id="date">
+                </div>
+        <h3> Gender </h3>
+                <div class="gender-container">
+                    <label for="male"> Male </label>
+                    <input type="radio" id="Male" name="Gender" value="male">
+                    <label for="female"> Female</label>
+                    <input type="radio" id="female" name="Gender" value="female">
+                    <label for="other"> Other</label>
+                    <input type="radio" id="other" name="Gender" value="other">
+                </div>
+
+        <h3> Favourate Job</h3>
+                <div class="favouratejob-container">
+                    <label for="student">Student</label>
+                    <input type="checkbox" name="student" id="student">
+                    <label for="teacher"> Teacher </label>
+                    <input type="checkbox" name="teacher" id="teacher">
+                    <label for="worker">Worker</label>
+                    <input type="checkbox" name="worker" id="worker">
+                </div>
+                <h3>My favourate Languages</h3>
+                <div>
+                    <label for="fav_lang">fav_lang</label>
+                    <select name="fav_lang" id="fav_lang">
+                        <option value="selectone">Select One</option>
+                        <option value="js">Javascript</option>
+                        <option value="html">HTML</option>
+                        <option value="python">Python</option>
+                        <option value="css">Css</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" name="submitButton"> Submit </button>
+                </div>
+            </form>
+    </div>
+</body>
+</html>
